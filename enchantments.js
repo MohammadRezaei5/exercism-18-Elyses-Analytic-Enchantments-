@@ -33,3 +33,11 @@ function doesStackIncludeOddCard(stack) {
 }
 
 // console.log(doesStackIncludeOddCard([3, 2, 6, 4, 8]));
+
+///---///
+
+function getFirstOddCard(stack) {
+  return stack.find((card) => card % 2 === 1);
+}
+
+// console.log(getFirstOddCard([4, 2, 8, 7, 9]));
