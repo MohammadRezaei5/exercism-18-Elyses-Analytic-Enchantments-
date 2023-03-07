@@ -41,3 +41,11 @@ function getFirstOddCard(stack) {
 }
 
 // console.log(getFirstOddCard([4, 2, 8, 7, 9]));
+
+///---///
+
+function getFirstEvenCardPosition(stack) {
+  return stack.findIndex((card) => card % 2 === 0);
+}
+
+// console.log(getFirstEvenCardPosition([5, 2, 3, 1]));
