@@ -25,3 +25,11 @@ function isEachCardEven(stack) {
 }
 
 // console.log(isEachCardEven([2, 4, 6, 7]));
+
+///---///
+
+function doesStackIncludeOddCard(stack) {
+  return stack.some((card) => card % 2 === 1);
+}
+
+// console.log(doesStackIncludeOddCard([3, 2, 6, 4, 8]));
